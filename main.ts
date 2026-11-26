@@ -26,8 +26,25 @@
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
+// REVISION v3 — one genuine defect in the v2 line, fixed:
+//   "I've watched you rehearse that breakup speech in my mirror three
+//    times now. Floor 12 — you've got this, champ."
+//   Defect: the ending wastes the elevator's one signature move. The
+//   floor announcement ("Floor 12 — ...") is the only thing an elevator
+//   ever says, yet it lands on "you've got this, champ" — a stock
+//   pep-talk any character in any story could deliver. The line's
+//   strongest idea (the lift as secret witness) ends on its most
+//   generic beat, and "now" in "three times now" is filler that adds
+//   nothing but a syllable.
+//   Fix: deliver the encouragement AS the floor announcement, in the
+//   lift's own vocabulary — "doors opening on your single life."
+//   The breakup itself becomes the punch: the doors are literally
+//   opening onto the passenger's new single life. Only an elevator
+//   can say that sentence, and the pep-talk cliché is gone. Dropping
+//   "now" tightens the first clause without losing the count.
+
 const ENTRY =
-  "I've watched you rehearse that breakup speech in my mirror three times now. Floor 12 — you've got this, champ.";
+  "I've watched you rehearse that breakup speech in my mirror three times. Floor 12 — doors opening on your single life.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");

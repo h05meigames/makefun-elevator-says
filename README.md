@@ -8,9 +8,9 @@ One line, at most 120 characters — the funniest thing a talking elevator would
 
 ## The line
 
-> I've watched you rehearse that breakup speech in my mirror three times now. Floor 12 — you've got this, champ.
+> I've watched you rehearse that breakup speech in my mirror three times. Floor 12 — doors opening on your single life.
 
-**110 characters.**
+**117 characters.**
 
 ## Run it
 
